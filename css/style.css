@@ -13,6 +13,7 @@ body {
 }
 
 .container {
+  position: relative;
   max-width: 1170px;
   margin: 0 auto;
   padding-left: 15px;
@@ -507,12 +508,13 @@ a {
     top: 0;
     left: 0;
     width: 60%;
-    background-color: #dfe4eb;
+    background-color: #e6dfebf0;
     padding-top: 100px;
     padding-left: 30px;
     z-index: 1;
     height: 100vh;
     flex-direction: column;
+    z-index: 5;
   }
 
   .site-navigation-item .link-item {
@@ -569,7 +571,7 @@ a {
   }
 
   .burger.active::after {
-    transform: translateY(-2px) rotate(-45deg);
+    transform: translateY(-1px) rotate(-45deg);
     transform-origin: bottom left;
     width: 29px;
   }
@@ -604,6 +606,10 @@ a {
 }
 
 @media (max-width: 500px) {
+  .site-navigation {
+    width: 100%;
+    align-items: center;
+  }
   .promo-text {
     font-size: 100px;
     line-height: 130px;

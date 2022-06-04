@@ -8,7 +8,6 @@
       href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/swiper-bundle.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/catalog.css" />
     <link href="css/card.css" rel="stylesheet" />
@@ -63,44 +62,44 @@
             <div class="slider-container">
               <div class="card-slider-wrapper image-slider swiper-container">
                 <ul class="image-slider-wrapper swiper-wrapper">
-                  <li class="swiper-slide big-slide">
+                  <li class="slide big-slide current-slide">
                     <img
                       src="img/card/1.11.jpg"
                       alt="Фото"
                       class="big-slide active"
                     />
                   </li>
-                  <li class="swiper-slide card-photos-slider-preview-item">
+                  <li class="slide card-photos-slider-preview-item">
                     <img
                       src="img/card/1.12.jpg"
                       alt="Фото 1"
                       class="big-slide"
                     />
                   </li>
-                  <li class="swiper-slide card-photos-slider-preview-item">
+                  <li class="slide card-photos-slider-preview-item">
                     <img
                       src="img/card/1.13.jpg"
                       alt="Фото 2"
                       class="big-slide"
                     />
                   </li>
-                  <li class="swiper-slide card-photos-slider-preview-item">
+                  <li class="slide card-photos-slider-preview-item">
                     <img
                       src="img/card/1.14.jpg"
                       alt="Фото 3"
                       class="big-slide"
                     />
                   </li>
-                  <!-- <li class="swiper-slide card-photos-slider-preview-item">
+                  <!-- <li class="slide card-photos-slider-preview-item">
                                     <img src="img/card/1.15.jpg" alt="Фото 4">
                                 </li> -->
                 </ul>
-                <button class="swiper-button-prev" type="button"></button>
-                <button class="swiper-button-next" type="button"></button>
+                <button class="prev" type="button">&lt;</button>
+                <button class="next" type="button">&gt;</button>
               </div>
               <div class="image-mini-slider">
                 <ul class="image-mini-slider-wrapper">
-                  <li class="swiper-mini-slide">
+                  <li class="mini-slide">
                     <img
                       src="img/card/1.11.jpg"
                       width="85"
@@ -109,7 +108,7 @@
                       alt="Фото"
                     />
                   </li>
-                  <li class="swiper-mini-slide">
+                  <li class="mini-slide">
                     <img
                       src="img/card/1.12.jpg"
                       width="85"
@@ -118,7 +117,7 @@
                       alt="Фото 1"
                     />
                   </li>
-                  <li class="swiper-mini-slide">
+                  <li class="mini-slide">
                     <img
                       src="img/card/1.13.jpg"
                       width="85"
@@ -127,7 +126,7 @@
                       alt="Фото 2"
                     />
                   </li>
-                  <li class="swiper-mini-slide">
+                  <li class="mini-slide">
                     <img
                       src="img/card/1.14.jpg"
                       width="85"
@@ -136,7 +135,7 @@
                       alt="Фото 3"
                     />
                   </li>
-                  <!-- <li class="swiper-mini-slide">
+                  <!-- <li class="mini-slide">
                     <img
                       src="img/card/1.15.jpg"
                       width="85"
@@ -243,7 +242,7 @@
       <section class="similar container">
         <header class="section-header">
           <h2 class="section-title">You may also like</h2>
-          <a class="show-more" href="#">View all</a>
+          <a class="show-more" href="catalog.html">View all</a>
         </header>
         <ul class="catalog-list">
           <li class="catalog-item">
@@ -354,7 +353,8 @@
       </div>
     </footer>
 
-    <script src="js/swiper-bundle.js"></script>
+    <!-- <script src="js/swiper-bundle.js"></script> -->
     <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
   </body>
 </html>
