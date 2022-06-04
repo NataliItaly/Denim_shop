@@ -247,6 +247,11 @@
   margin-bottom: 10px;
 }
 
+.color-label:not(:last-child),
+.size-label:not(:last-child) {
+  margin-right: 20px;
+}
+
 @media (max-width: 1040px) {
   .card {
     background-image: none;
@@ -316,5 +321,16 @@
   .section-header {
     flex-direction: column;
     gap: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .color-label,
+  .size-label {
+    display: block;
+  }
+  .color-label:not(:last-child),
+  .size-label:not(:last-child) {
+    margin-bottom: 10px;
   }
 }
